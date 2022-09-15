@@ -26,9 +26,9 @@ public class HashMapp {
 
         System.out.println("\nClass Roster:");
 
-        for (Object student : classRoster.entrySet()) {
-            System.out.println(student.getValue() + "'s ID: " + student.getKey());
-        }
+ //       for (Object student : classRoster.entrySet()) {
+ //           System.out.println(student.getValue() + "'s ID: " + student.getKey());
+ //       }
         System.out.println("Number of students in roster: " + classRoster.size());
     }
 }
