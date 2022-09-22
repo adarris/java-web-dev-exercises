@@ -52,13 +52,13 @@ public class Student {
         this.gpa = currentTotalQuality / this.numberOfCredits;
     }
 
-    @Override
+//    @Override
     // TODO: Add your custom 'toString' method here. Make sure it returns a well-formatted String rather
     //  than just the class fields.
-    public String toString(){
-        String studentReport = String.format("%s is a %s with %d credits and a GPA of %.2f", this.name, this.getGradeLevel(this.numberOfCredits(), this.getNumberOfCredits(), this.getGpa());
-        return studentReport;
-    }
+//    public String toString(){
+//        String studentReport = String.format("%s is a %s with %d credits and a GPA of %.2f", this.name, this.getGradeLevel(this.numberOfCredits(), this.getNumberOfCredits(), this.getGpa()));
+//        return studentReport;
+//    }
 
     // TODO: Add your custom 'equals' method here. Consider which fields should match in order to call two
     //  Student objects equal.
